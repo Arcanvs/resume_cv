@@ -1,0 +1,48 @@
+// Clase que actua como contenedor para las columnas
+.row{
+    background-color: green;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62.5rem;
+}
+
+// Mixin encargado de generar las respectivas clases col
+// @include generate-cols(2rem, 'l')
+// @params $paddings -> unidad de padding left y right con respecto a acada pantalla
+// @params $screen -> unidad a que tipo de pantalla se esta construllendo la clase : col-l-12, col-xl-12
+// @params $cols -> unidad decladara en _variables.scss
+
+@mixin generate-cols($paddings,$screen)
+{
+  @for $i from 1 through $cols {
+    .col-#{$screen}-#{$i}{
+      width: (100% * $i) / $cols;
+      box-sizing: border-box;
+      float: left;
+      background-color: gray;
+      padding-left: $paddings;
+      padding-right: $paddings;
+    }
+  }
+}
+
+// For Ech utilizado para recorrer la variable $breakpoints_text x-large, large, medium, small
+@each $screen in $breakpoints_text{
+  @include breakpoint($screen){
+    @if $screen == "x-large"{
+      @include colorbody(blue);
+      @include generate-cols(2rem, 'xl');
+    }@else if $screen == "large"{
+      @include colorbody(red);
+      @include generate-cols(1rem, 'l');
+    }@else if $screen == "medium"{
+      @include colorbody(orange);
+      @include generate-cols(1rem, 'm');
+    }
+    @else if $screen == "small"{
+      @include colorbody(pink);
+      @include generate-cols(0.5rem, 's');
+    }
+  }
+}
