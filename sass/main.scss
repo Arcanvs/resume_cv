@@ -1,7 +1,22 @@
+
+@import "fuentes";
 @import "variables";
 @import "parcial";
 @import "general";
 @import "grilla";
+
+//Font-awesome
+@import "font-awesome/main";
+
+// Prueba
+h1{
+	font-family: Titillium Web;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
 
 
 // @include breakpoint(x-large){

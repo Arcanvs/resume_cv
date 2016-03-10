@@ -31,17 +31,17 @@
 @each $screen in $breakpoints_text{
   @include breakpoint($screen){
     @if $screen == "x-large"{
-      @include colorbody(blue);
+      //@include colorbody(blue);
       @include generate-cols(2rem, 'xl');
     }@else if $screen == "large"{
-      @include colorbody(red);
+      //@include colorbody(red);
       @include generate-cols(1rem, 'l');
     }@else if $screen == "medium"{
-      @include colorbody(orange);
+      //@include colorbody(orange);
       @include generate-cols(1rem, 'm');
     }
     @else if $screen == "small"{
-      @include colorbody(pink);
+      //@include colorbody(pink);
       @include generate-cols(0.5rem, 's');
     }
   }
