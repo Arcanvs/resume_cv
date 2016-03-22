@@ -1,22 +1,16 @@
 
+// Fuentes de la pagina
 @import "fuentes";
+// Font-awesome
+@import "font-awesome/main";
 @import "variables";
-@import "parcial";
+// Funciones y Mixin comunes
+@import "funciones";
 @import "general";
 @import "grilla";
-
-//Font-awesome
-@import "font-awesome/main";
-
-// Prueba
-h1{
-	font-family: Titillium Web;
-    font-weight: 600;
-    font-style: normal;
-}
-
-
-
+@import "secciones";
+// Estilos para grafico circular y de barra
+@import "grafico";
 
 
 // @include breakpoint(x-large){

@@ -3,27 +3,30 @@
 $color1: #f5f5f5;
 $color2: #323232;
 $color3: #8b8b8b;
-
-
+$color4: #ebebeb;
+$color5: #7d7d7d;
+$color6: #ffffff;
+$color7: #000000;
+$color8: #fafafa;
 // Map con los respectivos puntos de quiebre
 $breakpoints: (
 	x-large: "(min-width: 85rem)",
 	large: "(min-width: 64rem)",
 	medium: "(min-width: 37.5rem) and (max-width: 63.9375rem)",
 	small: "(min-width: 15rem) and (max-width: 37.4375rem)",
-  small-to-medium: "(min-width: 15rem) and (max-width: 63.9375rem)",
-  medium-to-large: "(min-width: 37.5rem)"
+	small-to-medium: "(min-width: 15rem) and (max-width: 63.9375rem)",
+	medium-to-large: "(min-width: 37.5rem)"
 );
 
 // Map con el texto de cada medida por que aun nose como extraer
 // el nombre de la variable sin el valor.
 $breakpoints_text: (
-  "x-large",
-  "large",
-  "medium",
-  "small",
-  "small-to-medium",
-  "medium-to-large"
+	"x-large",
+	"large",
+	"medium",
+	"small",
+	"small-to-medium",
+	"medium-to-large"
 );
 
 // Variable que indica la cantidad de columnas para la grilla

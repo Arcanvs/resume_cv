@@ -1,51 +1,49 @@
-// Mixin encargado de generar los distintos prefijos para los estilos que lo requieran.
-// @include prefijos(transition,0.5,webkit moz ms o)
-// @param $propiedad => tipo de propiedad Css a la cual se le añadiran los prefijos
-// @param $valor => valor de la propiedad
-// @param $prefix => definido en archivo _variables.scss
+// Estilos generales
 
-@mixin prefijos($propiedad, $valor, $prefix){
-	#{$propiedad}: #{$valor};
-	@each $val in $prefix{
-		#{'-' + $val + '-' + $propiedad}: #{$valor};
-	}
+// *,
+// *:before,
+// *:after {
+//   -webkit-box-sizing: inherit;
+//   -moz-box-sizing: inherit;
+//   box-sizing: inherit; }
+html {
+	box-sizing: border-box; 
 }
 
-// Mixin encargado de general los anchos y altos
-// @include tamanos(40px){}
-@mixin tamanos($ancho, $alto: $ancho){
-	height: $alto;
-	width: $ancho;
+html, body {
+	height: 100%; 
+	font-size: 100%;
 }
 
-// Mixin transition
-// .caja{
-// 		background-color: blue;
-// 		@include tamano(200px);
-// 		@include transition(0.8s);
-// 		&:active{
-// 			@include tamano(300px);
-// 		}	
-// }
-
-@mixin transition($valor: .15s){
-	@include prefijos(transition, $valor);
+body {
+	background: $color1;
+	color: $color2;
+	cursor: auto;
+	font-family: Titillium Web;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
 }
 
-
-// Utilidades
-// .articulo{
-//		@include clearfix();
-// }
-@mixin clearfix(){
-	&:before,
-	&:after{
-		content: "";
-		display: table;
-	}
-	&:after{
-		clear: both;
-	}
+h1{
+	font-size: 4rem;
+}
+h2{
+	font-size: 2.5rem;
+	margin: 0;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1rem;
 }
 
-
+p{
+	font-size: 1rem;
+	direction: ltr;
+}

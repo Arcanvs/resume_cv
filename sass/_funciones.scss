@@ -1,0 +1,69 @@
+// Mixin encargado de generar las Medias con los diversos puntos de quiebre de pantalla.
+// @includo breakpoint(x-large){}
+
+@mixin breakpoint($device) {
+	@if not map-has-key($breakpoints, $device) {
+		@error 'Device value (#{$device}) is unknown';
+	} 
+
+	@media #{map-get($breakpoints, $device)} {
+		@content;
+	}
+}
+
+// Funcion de Prueba
+@mixin colorbody($color){
+	body{
+		background-color: $color;
+	}
+}
+
+// Mixin encargado de generar los distintos prefijos para los estilos que lo requieran.
+// @include prefijos(transition,0.5,webkit moz ms o)
+// @param $propiedad => tipo de propiedad Css a la cual se le añadiran los prefijos
+// @param $valor => valor de la propiedad
+// @param $prefix => definido en archivo _variables.scss
+
+@mixin prefijos($propiedad, $valor, $prefix){
+	#{$propiedad}: #{$valor};
+	@each $val in $prefix{
+		#{'-' + $val + '-' + $propiedad}: #{$valor};
+	}
+}
+
+// Mixin encargado de general los anchos y altos
+// @include tamanos(40px)
+@mixin tamanos($ancho, $alto: $ancho){
+	height: $alto;
+	width: $ancho;
+}
+
+// Mixin transition
+// .caja{
+// 		background-color: blue;
+// 		@include tamano(200px);
+// 		@include transition(0.8s);
+// 		&:active{
+// 			@include tamano(300px);
+// 		}	
+// }
+
+@mixin transition($valor: .15s){
+	@include prefijos(transition, $valor);
+}
+
+
+// Utilidades
+// .articulo{
+//		@include clearfix();
+// }
+@mixin clearfix(){
+	&:before,
+	&:after{
+		content: "";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+}

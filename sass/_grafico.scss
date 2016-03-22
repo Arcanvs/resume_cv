@@ -1,0 +1,88 @@
+// Grados a partir del 50% y de 5 en 5 hasta 100% para el grafico circular de habilidades
+$grados_circulo: (180,198,216,234,252,270,288,306,324,342,360);
+
+// Funcion para añadir los grados al grafico de circulo
+@mixin calc_circulo($grado,$color){
+	background-image:
+        linear-gradient($grado, transparent 50%, $color 50%),
+        linear-gradient(90deg, $color3 50%, transparent 50%);
+}
+
+// Grafico de Circulo -->
+.contenedor-g{
+	@include tamanos(6.875rem,6.875rem);
+    margin: 2rem auto;
+}
+.porcentaje{
+    top: 2.1875rem;
+    position: relative;
+    font-size: 1.375rem;
+}
+
+.circulo{
+    position: relative;
+    top: 0.3125rem;
+    left: 0.3125rem;
+    text-align: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+    background-color: $color6;
+}
+
+@each $grado in $grados_circulo{
+	$porcentaje: (100*$grado) / 360;
+	.p#{$porcentaje}{
+		@if $grado <= 180
+		{
+			$grado : 90 + $grado;
+			$grado : $grado#{"deg"};
+			@include calc_circulo($grado,$color3);
+		}@else{
+			$grado : $grado - 90;
+			$grado : $grado#{"deg"};
+			@include calc_circulo($grado,$color2);
+		}
+	}
+}
+
+.borde{
+    position: relative;
+    text-align: center;
+    @include tamanos(6.875rem,6.875rem);
+    border-radius: 100%;
+	background-color:$color2;
+}
+// <-- Grafico de Circulo
+
+// Grafico de Barra Horizonatal --->
+.contenedor-b{
+	padding-bottom:2rem;
+	& header{
+		text-align: left;
+		padding-bottom: 0.5rem;
+	}	
+}
+
+.barra-b{
+	@include tamanos(100%,1.0625rem);
+	background-color: $color8;
+	box-sizing: border-box;
+	padding: 0.3125rem;
+	border: 0.0625rem solid $color4;
+}
+
+.barra-f{
+	background-color: $color2;
+	height: 0.3125rem;
+}
+
+@for $i from 50 through 100 {
+	.pb#{$i}{
+		width: $i#{"%"};
+	}
+}
+
+// <--- Grafico de Barra Horizonatal
+
+

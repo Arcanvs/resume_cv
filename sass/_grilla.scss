@@ -1,10 +1,10 @@
 // Clase que actua como contenedor para las columnas
 .row{
-    background-color: green;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 62.5rem;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 62.5rem;
+	@include clearfix()
 }
 
 // Mixin encargado de generar las respectivas clases col
@@ -15,34 +15,160 @@
 
 @mixin generate-cols($paddings,$screen)
 {
-  @for $i from 1 through $cols {
-    .col-#{$screen}-#{$i}{
-      width: (100% * $i) / $cols;
-      box-sizing: border-box;
-      float: left;
-      background-color: gray;
-      padding-left: $paddings;
-      padding-right: $paddings;
-    }
-  }
+	@for $i from 1 through $cols {
+		// columnas especiales -->
+		@if $screen == "xl"{
+			.yosoy{
+				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;position: absolute;height: 100%;
+			}
+			.s2l{
+				width: 50%;
+				float: left;
+			}
+			.s2r{
+				width: 50%;
+				float: right;
+			}
+			.col-6-e{
+				width: 50%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+			.col-4-e{
+				width: 25%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+		}@else if $screen == "l"{
+			.yosoy{
+				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;position: absolute;height: 100%;
+			}
+			.s2l{
+				width: 50%;
+				float: left;
+			}
+			.s2r{
+				width: 50%;
+				float: right;
+			}
+			.col-6-e{
+				width: 50%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+			.col-4-e{
+				width: 25%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+		}@else if $screen == "m"{
+			.yosoy{
+				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;height: 300px;
+			}
+			.s2l{
+				width: 100%;
+				float: left;
+	  		}
+			.s2r{
+				width: 100%;
+				float: left;
+			}
+			.col-6-e{
+				width: 100%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+			.hide-col{
+				display: none;
+			}
+			.col-4-e{
+				width: 50%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+		}
+		@else if $screen == "s"{
+			.yosoy{
+				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;height: 300px;
+			}
+			.s2l{
+				width: 100%;
+				float: left;
+			}
+			.s2r{
+				width: 100%;
+				float: left;
+			}
+			.col-6-e{
+				width: 100%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+			.col-4-e{
+				width: 100%;
+				box-sizing: border-box;
+				float: left;
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
+			.hide-col{
+				display: none;
+			}
+		}
+	// <-- columnas especiales    
+	
+	// columnas normales -->
+		.col-#{$i}{
+			width: (100% * $i) / $cols;
+			box-sizing: border-box;
+			float: left;
+			// background-color: gray;
+			padding-left: $paddings;
+			padding-right: $paddings;
+		}
+	// Borrar a futuro ->
+		.col-#{$screen}-#{$i}{
+			width: (100% * $i) / $cols;
+			box-sizing: border-box;
+			float: left;
+			// background-color: gray;
+			padding-left: $paddings;
+			padding-right: $paddings;
+		}
+	// <-- columnas normales
+	}
 }
 
 // For Ech utilizado para recorrer la variable $breakpoints_text x-large, large, medium, small
 @each $screen in $breakpoints_text{
-  @include breakpoint($screen){
-    @if $screen == "x-large"{
-      //@include colorbody(blue);
-      @include generate-cols(2rem, 'xl');
-    }@else if $screen == "large"{
-      //@include colorbody(red);
-      @include generate-cols(1rem, 'l');
-    }@else if $screen == "medium"{
-      //@include colorbody(orange);
-      @include generate-cols(1rem, 'm');
-    }
-    @else if $screen == "small"{
-      //@include colorbody(pink);
-      @include generate-cols(0.5rem, 's');
-    }
-  }
+	@include breakpoint($screen){
+		@if $screen == "x-large"{
+			//@include colorbody(blue);
+			@include generate-cols(2rem, 'xl');
+		}@else if $screen == "large"{
+			//@include colorbody(red);
+			@include generate-cols(1rem, 'l');
+		}@else if $screen == "medium"{
+			//@include colorbody(orange);
+			@include generate-cols(1rem, 'm');
+		}
+		@else if $screen == "small"{
+			//@include colorbody(pink);
+			@include generate-cols(0.5rem, 's');
+		}
+	}
 }
