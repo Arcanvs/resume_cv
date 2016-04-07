@@ -49,7 +49,7 @@
 // }
 
 @mixin transition($valor: .15s){
-	@include prefijos(transition, $valor);
+	@include prefijos(transition, $valor, $prefix);
 }
 
 

@@ -1,6 +1,3 @@
-// Grados a partir del 50% y de 5 en 5 hasta 100% para el grafico circular de habilidades
-$grados_circulo: (180,198,216,234,252,270,288,306,324,342,360);
-
 // Funcion para añadir los grados al grafico de circulo
 @mixin calc_circulo($grado,$color){
 	background-image:
@@ -30,8 +27,9 @@ $grados_circulo: (180,198,216,234,252,270,288,306,324,342,360);
     background-color: $color6;
 }
 
-@each $grado in $grados_circulo{
-	$porcentaje: (100*$grado) / 360;
+// Calculo de porcentaje para el grafico Circular
+@for $porcentaje from 1 through 100{
+	$grado: (360*$porcentaje) / 100;
 	.p#{$porcentaje}{
 		@if $grado <= 180
 		{
@@ -76,8 +74,8 @@ $grados_circulo: (180,198,216,234,252,270,288,306,324,342,360);
 	background-color: $color2;
 	height: 0.3125rem;
 }
-
-@for $i from 50 through 100 {
+// Calculo de Porcentajes para la barra
+@for $i from 1 through 100 {
 	.pb#{$i}{
 		width: $i#{"%"};
 	}

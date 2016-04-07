@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="MyApp">
 	<head>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Programador</title>
+		<script src="js/lib/angular.min.js"></script>
+		<script src="js/main.js"></script>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
-	<body>
+	<body ng-controller="SkillsCtrl">
 		<section id="first">
 			<div class="row">
 				<div class="col-12">
@@ -21,23 +23,21 @@
 				</div>
 			</div>
 		</section>
-		
 		<section id="second">
 			<div class="yosoy s2l"></div>
 			<div class="s2r">
 					<!-- Añadir los padding en los extremos para los elementos dentro de s2r -->
 					<h2>Quien Soy?</h2>
-					<p>Soy un Ingeniero de ejecución informático titulado de <strong>Santo Tomás</strong> Talca. Poseo experiencia en el desarrollo de <strong>Software</strong> y me caracterizo por ser un profesional capaz de adaptarme a diversos equipos de trabajo donde aporto ideas y soluciones.</p>
+					<p class="pad">Soy un Ingeniero de ejecución informático titulado de <strong>Santo Tomás</strong> Talca. Poseo experiencia en el desarrollo de <strong>Software</strong> y me caracterizo por ser un profesional capaz de adaptarme a diversos equipos de trabajo donde aporto ideas y soluciones.</p>
 					<div class="mono">
 						<div>
-							<i class="fa fa-envelope"></i> correo : jose.osorio.herrera@gmail.com<br>
-							<i class="fa fa-linkedin"></i> likedin : cl.linkedin.com/in/joseosorioherrera<br>
-							<i class="fa fa-phone"></i> teléfono : +569-73040302		
+							<i class="fa fa-envelope"></i> Correo : jose.osorio.herrera@gmail.com<br>
+							<i class="fa fa-linkedin"></i> Likedin : cl.linkedin.com/in/joseosorioherrera<br>
+							<i class="fa fa-phone"></i> Teléfono : +569-73040302		
 						</div>
 					</div>			
 				</div>
 		</section>
-		
 		<section id="third">
 			<div class="row">
 				<div class="col-12">
@@ -50,7 +50,6 @@
 				</div>
 			</div>
 		</section>
-
 		<section id="fourth">
 			<header class="cont-h">
 				<div class="row">
@@ -130,9 +129,7 @@
 					</div>
 				</div>
 			</section>
-
 		</section>
-
 		<section id="fifth">
 			<header class="cont-h">
 				<div class="row">
@@ -161,8 +158,8 @@
 							</div>
 							<ul class="clistl">
 								<li><h3>Santo Tomas, <i>Talca</i></h3></li>
-								<li><h4>Ingeniero Ejecucion informatica</h4></li>
-								<li><span>Oct 2013 - Mar 2015</span></li>
+								<li><h4>Ingeniero Ejecución informática</h4></li>
+								<li><span>2009 - 2013</span></li>
 							</ul>
 						</article>
 					</div>
@@ -177,9 +174,9 @@
 								<i class="fa fa-graduation-cap"></i>
 							</div>
 							<ul class="clistr">
-								<li><h3>Santo Tomas, <i>Talca</i></h3></li>
-								<li><h4>Ingeniero Ejecucion informatica</h4></li>
-								<li><span>Oct 2013 - Mar 2015</span></li>
+								<li><h3>Juan Piamarta, <i>Talca</i></h3></li>
+								<li><h4>Técnico nivel medio en Telecomunicaciones</h4></li>
+								<li><span>2006 - 2007</span></li>
 							</ul>
 						</article>
 					</div>
@@ -189,7 +186,6 @@
 				</div>
 			</section>
 		</section>
-
 		<section id="sixth">
 			<header class="cont-h">
 				<div class="row">
@@ -207,172 +203,83 @@
 			</header>
 			
 			<section class="cont-b">
-				<div class="row">
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p85">
-									<div class="circulo">
-										<span class="porcentaje">85%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>Php</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p85">
-									<div class="circulo">
-										<span class="porcentaje">85%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>Html</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p75">
-									<div class="circulo">
-										<span class="porcentaje">75%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>CSS</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p75">
-									<div class="circulo">
-										<span class="porcentaje">75%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>CoffeScript</footer>
-					</article>
+				<div class="col-12" ng-show="loading">
+					<span>Cargando <strong>habilidades</strong> <i class="fa fa-circle-o-notch fa-spin fa-lg"></i></span>
 				</div>
-				<div class="row">
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p75">
-									<div class="circulo">
-										<span class="porcentaje">75%</span>
+				<div ng-repeat="skill_t0 in skills_t0" ng-show="skills">
+					<div class="row">
+						<div ng-repeat="sk_t0 in skill_t0">
+							<article class="col-4-e">
+								<section>
+									<div class="contenedor-g">
+										<div class="borde p{{sk_t0.porcentaje}}">
+											<div class="circulo">
+												<span class="porcentaje">{{sk_t0.porcentaje}}%</span>
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
-						</section>
-						<footer>Mysql</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p55">
-									<div class="circulo">
-										<span class="porcentaje">55%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>Oracle</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p60">
-									<div class="circulo">
-										<span class="porcentaje">60%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>Java</footer>
-					</article>
-					<article class="col-4-e">
-						<section>
-							<div class="contenedor-g">
-								<div class="borde p55">
-									<div class="circulo">
-										<span class="porcentaje">55%</span>
-									</div>
-								</div>
-							</div>
-						</section>
-						<footer>C#</footer>
-					</article>
-				</div>
-			</section>
-			
-			<section class="cont-b">
-				<div class="row">
-					<div class="col-12">
-						<h3>Mas Hablilidades</h3>
+								</section>
+								<footer>{{sk_t0.descripcion}}</footer>
+							</article>
+						</div>
 					</div>
 				</div>
 			</section>
 			
 			<section class="cont-b">
 				<div class="row">
-					<article class="col-6-e contenedor-b">
-						<header>Ingles Hablado,<i>50%</i></header>
-						<section>
-							<div class="barra-b">
-								<div class="barra-f pb50"></div>
-							</div>
-							
-						</section>
-					</article>
-					<article class="col-6-e contenedor-b">
-						<header>Ingles Escrito,<i>55%</i></header>
-						<section>
-							<div class="barra-b">
-								<div class="barra-f pb55"></div>
-							</div>
-						</section>
-					</article>
+					<div class="col-12">
+						<h3>Más Hablilidades</h3>
+					</div>
 				</div>
-				<div class="row">
-					<article class="col-6-e contenedor-b">
-						<header>Modelamiento de Datos,<i>80%</i></header>
-						<section>
-							<div class="barra-b">
-								<div class="barra-f pb80"></div>
-							</div>
-							
-						</section>
-					</article>
-					<article class="col-6-e contenedor-b">
-						<header>Elaboración de Documentación,<i>80%</i></header>
-						<section>
-							<div class="barra-b">
-								<div class="barra-f pb80"></div>
-							</div>
-						</section>
-					</article>
+			</section>
+			
+			<section class="cont-b">
+				<div class="col-12" ng-show="loading">
+					<span>Cargando <strong>habilidades</strong> <i class="fa fa-circle-o-notch fa-spin fa-lg"></i></span>
+				</div>
+				<div ng-repeat="skill_t1 in skills_t1" ng-show="skills">
+					<div class="row">
+						<div ng-repeat="sk_t1 in skill_t1">
+							<article class="col-6-e contenedor-b">
+								<header>{{sk_t1.descripcion}},<i>{{sk_t1.porcentaje}}%</i></header>
+								<section>
+									<div class="barra-b">
+										<div class="barra-f pb{{sk_t1.porcentaje}}"></div>
+									</div>
+									
+								</section>
+							</article>
+						</div>
+					</div>
 				</div>
 			</section>
 		</section>
-
-		<!-- <div class="col-12" style="display: table;height: 100%;">
-		<div style="display: table-cell;vertical-align: middle;"> -->
-
 		<footer id="seventh">
 			<div class="row">
 				<div class="col-12">
 					<h3>Sigueme en</h3>
-					<i class="fa fa-twitter"></i>
-					<i class="fa fa-instagram"></i>
-					<i class="fa fa-linkedin"></i>
+					<span>
+						<a href="https://twitter.com/informatico_asd">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a href="https://www.instagram.com/arcanvsxiii/">
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://cl.linkedin.com/in/joseosorioherrera">
+							<i class="fa fa-linkedin"></i>
+						</a>	
+					</span>
 					<span>Desarrollado con <i class="fa fa-heart"></i> -2016</span>		
 				</div>
 			</div>
 		</footer>
-
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-75761871-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>

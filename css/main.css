@@ -2276,6 +2276,10 @@ p {
     clear: both; }
 
 @media (min-width: 85rem) {
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2316,6 +2320,10 @@ p {
     width: 8.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2362,6 +2370,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; }
 
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2402,6 +2414,10 @@ p {
     width: 25%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2448,6 +2464,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; }
 
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2488,6 +2508,10 @@ p {
     width: 41.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2534,6 +2558,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; }
 
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2574,6 +2602,10 @@ p {
     width: 58.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2620,6 +2652,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; }
 
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2660,6 +2696,10 @@ p {
     width: 75%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2706,6 +2746,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; }
 
+  .pad {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2746,6 +2790,10 @@ p {
     width: 91.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+  .pad {
     padding-left: 2rem;
     padding-right: 2rem; }
 
@@ -2792,6 +2840,10 @@ p {
     padding-left: 2rem;
     padding-right: 2rem; } }
 @media (min-width: 64rem) {
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2832,6 +2884,10 @@ p {
     width: 8.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -2878,6 +2934,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -2918,6 +2978,10 @@ p {
     width: 25%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -2964,6 +3028,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3004,6 +3072,10 @@ p {
     width: 41.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3050,6 +3122,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3090,6 +3166,10 @@ p {
     width: 58.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3136,6 +3216,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3176,6 +3260,10 @@ p {
     width: 75%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3222,6 +3310,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3262,6 +3354,10 @@ p {
     width: 91.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3308,6 +3404,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; } }
 @media (min-width: 37.5rem) and (max-width: 63.9375rem) {
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3350,6 +3450,10 @@ p {
     width: 8.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3398,6 +3502,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3440,6 +3548,10 @@ p {
     width: 25%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3488,6 +3600,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3530,6 +3646,10 @@ p {
     width: 41.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3578,6 +3698,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3620,6 +3744,10 @@ p {
     width: 58.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3668,6 +3796,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3710,6 +3842,10 @@ p {
     width: 75%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3758,6 +3894,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+  .pad {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3800,6 +3940,10 @@ p {
     width: 91.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .pad {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -3848,6 +3992,10 @@ p {
     padding-left: 1rem;
     padding-right: 1rem; } }
 @media (min-width: 15rem) and (max-width: 37.4375rem) {
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3890,6 +4038,10 @@ p {
     width: 8.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -3938,6 +4090,10 @@ p {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -3980,6 +4136,10 @@ p {
     width: 25%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -4028,6 +4188,10 @@ p {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -4070,6 +4234,10 @@ p {
     width: 41.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -4118,6 +4286,10 @@ p {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -4160,6 +4332,10 @@ p {
     width: 58.33333%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -4208,6 +4384,10 @@ p {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -4250,6 +4430,10 @@ p {
     width: 75%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -4298,6 +4482,10 @@ p {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
+  .pad {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
   .yosoy {
     background-image: url(../img/yo.jpg);
     background-size: cover;
@@ -4340,6 +4528,10 @@ p {
     width: 91.66667%;
     box-sizing: border-box;
     float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+  .pad {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
 
@@ -4569,12 +4761,28 @@ p {
 #seventh {
   background: #323232;
   color: #f5f5f5;
-  height: 9.375rem;
+  height: 10rem;
   display: table;
   width: 100%; }
   #seventh div:first-child {
     display: table-cell;
     vertical-align: middle; }
+  #seventh span {
+    display: block; }
+  #seventh h3 {
+    margin-bottom: 0.625rem; }
+  #seventh a {
+    margin: 0.625rem; }
+  #seventh .fa-twitter, #seventh .fa-instagram, #seventh .fa-linkedin {
+    color: #f5f5f5;
+    text-decoration: blink;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+    #seventh .fa-twitter:hover, #seventh .fa-instagram:hover, #seventh .fa-linkedin:hover {
+      transform: scale(2); }
 
 .contenedor-g {
   height: 6.875rem;
@@ -4596,35 +4804,302 @@ p {
   border-radius: 100%;
   background-color: #ffffff; }
 
+.p1 {
+  background-image: linear-gradient(93.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p2 {
+  background-image: linear-gradient(97.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p3 {
+  background-image: linear-gradient(100.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p4 {
+  background-image: linear-gradient(104.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p5 {
+  background-image: linear-gradient(108deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p6 {
+  background-image: linear-gradient(111.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p7 {
+  background-image: linear-gradient(115.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p8 {
+  background-image: linear-gradient(118.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p9 {
+  background-image: linear-gradient(122.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p10 {
+  background-image: linear-gradient(126deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p11 {
+  background-image: linear-gradient(129.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p12 {
+  background-image: linear-gradient(133.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p13 {
+  background-image: linear-gradient(136.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p14 {
+  background-image: linear-gradient(140.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p15 {
+  background-image: linear-gradient(144deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p16 {
+  background-image: linear-gradient(147.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p17 {
+  background-image: linear-gradient(151.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p18 {
+  background-image: linear-gradient(154.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p19 {
+  background-image: linear-gradient(158.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p20 {
+  background-image: linear-gradient(162deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p21 {
+  background-image: linear-gradient(165.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p22 {
+  background-image: linear-gradient(169.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p23 {
+  background-image: linear-gradient(172.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p24 {
+  background-image: linear-gradient(176.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p25 {
+  background-image: linear-gradient(180deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p26 {
+  background-image: linear-gradient(183.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p27 {
+  background-image: linear-gradient(187.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p28 {
+  background-image: linear-gradient(190.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p29 {
+  background-image: linear-gradient(194.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p30 {
+  background-image: linear-gradient(198deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p31 {
+  background-image: linear-gradient(201.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p32 {
+  background-image: linear-gradient(205.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p33 {
+  background-image: linear-gradient(208.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p34 {
+  background-image: linear-gradient(212.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p35 {
+  background-image: linear-gradient(216deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p36 {
+  background-image: linear-gradient(219.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p37 {
+  background-image: linear-gradient(223.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p38 {
+  background-image: linear-gradient(226.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p39 {
+  background-image: linear-gradient(230.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p40 {
+  background-image: linear-gradient(234deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p41 {
+  background-image: linear-gradient(237.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p42 {
+  background-image: linear-gradient(241.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p43 {
+  background-image: linear-gradient(244.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p44 {
+  background-image: linear-gradient(248.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p45 {
+  background-image: linear-gradient(252deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p46 {
+  background-image: linear-gradient(255.6deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p47 {
+  background-image: linear-gradient(259.2deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p48 {
+  background-image: linear-gradient(262.8deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p49 {
+  background-image: linear-gradient(266.4deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p50 {
   background-image: linear-gradient(270deg, transparent 50%, #8b8b8b 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p51 {
+  background-image: linear-gradient(93.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p52 {
+  background-image: linear-gradient(97.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p53 {
+  background-image: linear-gradient(100.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p54 {
+  background-image: linear-gradient(104.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
 .p55 {
   background-image: linear-gradient(108deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
+.p56 {
+  background-image: linear-gradient(111.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p57 {
+  background-image: linear-gradient(115.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p58 {
+  background-image: linear-gradient(118.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p59 {
+  background-image: linear-gradient(122.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p60 {
   background-image: linear-gradient(126deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p61 {
+  background-image: linear-gradient(129.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p62 {
+  background-image: linear-gradient(133.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p63 {
+  background-image: linear-gradient(136.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p64 {
+  background-image: linear-gradient(140.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
 .p65 {
   background-image: linear-gradient(144deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
+.p66 {
+  background-image: linear-gradient(147.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p67 {
+  background-image: linear-gradient(151.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p68 {
+  background-image: linear-gradient(154.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p69 {
+  background-image: linear-gradient(158.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p70 {
   background-image: linear-gradient(162deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p71 {
+  background-image: linear-gradient(165.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p72 {
+  background-image: linear-gradient(169.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p73 {
+  background-image: linear-gradient(172.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p74 {
+  background-image: linear-gradient(176.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
 .p75 {
   background-image: linear-gradient(180deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
+.p76 {
+  background-image: linear-gradient(183.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p77 {
+  background-image: linear-gradient(187.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p78 {
+  background-image: linear-gradient(190.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p79 {
+  background-image: linear-gradient(194.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p80 {
   background-image: linear-gradient(198deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p81 {
+  background-image: linear-gradient(201.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p82 {
+  background-image: linear-gradient(205.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p83 {
+  background-image: linear-gradient(208.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p84 {
+  background-image: linear-gradient(212.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
 .p85 {
   background-image: linear-gradient(216deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
+.p86 {
+  background-image: linear-gradient(219.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p87 {
+  background-image: linear-gradient(223.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p88 {
+  background-image: linear-gradient(226.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p89 {
+  background-image: linear-gradient(230.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p90 {
   background-image: linear-gradient(234deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
+.p91 {
+  background-image: linear-gradient(237.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p92 {
+  background-image: linear-gradient(241.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p93 {
+  background-image: linear-gradient(244.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p94 {
+  background-image: linear-gradient(248.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
 .p95 {
   background-image: linear-gradient(252deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p96 {
+  background-image: linear-gradient(255.6deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p97 {
+  background-image: linear-gradient(259.2deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p98 {
+  background-image: linear-gradient(262.8deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
+
+.p99 {
+  background-image: linear-gradient(266.4deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
 
 .p100 {
   background-image: linear-gradient(270deg, transparent 50%, #323232 50%), linear-gradient(90deg, #8b8b8b 50%, transparent 50%); }
@@ -4654,6 +5129,153 @@ p {
 .barra-f {
   background-color: #323232;
   height: 0.3125rem; }
+
+.pb1 {
+  width: 1%; }
+
+.pb2 {
+  width: 2%; }
+
+.pb3 {
+  width: 3%; }
+
+.pb4 {
+  width: 4%; }
+
+.pb5 {
+  width: 5%; }
+
+.pb6 {
+  width: 6%; }
+
+.pb7 {
+  width: 7%; }
+
+.pb8 {
+  width: 8%; }
+
+.pb9 {
+  width: 9%; }
+
+.pb10 {
+  width: 10%; }
+
+.pb11 {
+  width: 11%; }
+
+.pb12 {
+  width: 12%; }
+
+.pb13 {
+  width: 13%; }
+
+.pb14 {
+  width: 14%; }
+
+.pb15 {
+  width: 15%; }
+
+.pb16 {
+  width: 16%; }
+
+.pb17 {
+  width: 17%; }
+
+.pb18 {
+  width: 18%; }
+
+.pb19 {
+  width: 19%; }
+
+.pb20 {
+  width: 20%; }
+
+.pb21 {
+  width: 21%; }
+
+.pb22 {
+  width: 22%; }
+
+.pb23 {
+  width: 23%; }
+
+.pb24 {
+  width: 24%; }
+
+.pb25 {
+  width: 25%; }
+
+.pb26 {
+  width: 26%; }
+
+.pb27 {
+  width: 27%; }
+
+.pb28 {
+  width: 28%; }
+
+.pb29 {
+  width: 29%; }
+
+.pb30 {
+  width: 30%; }
+
+.pb31 {
+  width: 31%; }
+
+.pb32 {
+  width: 32%; }
+
+.pb33 {
+  width: 33%; }
+
+.pb34 {
+  width: 34%; }
+
+.pb35 {
+  width: 35%; }
+
+.pb36 {
+  width: 36%; }
+
+.pb37 {
+  width: 37%; }
+
+.pb38 {
+  width: 38%; }
+
+.pb39 {
+  width: 39%; }
+
+.pb40 {
+  width: 40%; }
+
+.pb41 {
+  width: 41%; }
+
+.pb42 {
+  width: 42%; }
+
+.pb43 {
+  width: 43%; }
+
+.pb44 {
+  width: 44%; }
+
+.pb45 {
+  width: 45%; }
+
+.pb46 {
+  width: 46%; }
+
+.pb47 {
+  width: 47%; }
+
+.pb48 {
+  width: 48%; }
+
+.pb49 {
+  width: 49%; }
 
 .pb50 {
   width: 50%; }

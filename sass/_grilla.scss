@@ -18,6 +18,10 @@
 	@for $i from 1 through $cols {
 		// columnas especiales -->
 		@if $screen == "xl"{
+			.pad{
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
 			.yosoy{
 				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;position: absolute;height: 100%;
 			}
@@ -44,6 +48,10 @@
 				padding-right: $paddings;
 			}
 		}@else if $screen == "l"{
+			.pad{
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
 			.yosoy{
 				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;position: absolute;height: 100%;
 			}
@@ -70,6 +78,10 @@
 				padding-right: $paddings;
 			}
 		}@else if $screen == "m"{
+			.pad{
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
 			.yosoy{
 				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;height: 300px;
 			}
@@ -100,6 +112,10 @@
 			}
 		}
 		@else if $screen == "s"{
+			.pad{
+				padding-left: $paddings;
+				padding-right: $paddings;
+			}
 			.yosoy{
 				background-image: url(../img/yo.jpg);background-size: cover; background-position: center;height: 300px;
 			}

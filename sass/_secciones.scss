@@ -229,12 +229,29 @@
 #seventh{
 	background: $color2;
 	color: $color1;
-	height: 9.375rem;
+	height: 10rem;
 	display: table;
 	width: 100%;
 	& div:first-child{
 		display: table-cell;
 		vertical-align: middle;
+	}
+	span{
+		display: block;
+	}
+	h3{
+		margin-bottom: 0.625rem;
+	}
+	a{
+		margin: 0.625rem;
+	}
+	.fa-twitter , .fa-instagram  , .fa-linkedin{
+		color: $color1;
+		text-decoration: blink;
+		@include transition(all .2s ease-in-out);
+		&:hover{
+			transform: scale(2);
+		}
 	}
 }
 // <--- SECCION 7
